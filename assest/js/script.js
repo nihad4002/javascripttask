@@ -16,23 +16,23 @@ class salam{
         this.divide=divide;
     }
     plus=function(){
-        this.number+=plus;
-        return this.number;
+        number+=plus;
+        return number;
     }
     minus=function(){
-        this.number=plus()
-        this.number-=this.minus;
-        return this.number
+        number=plus()
+        number-=minus;
+        return number
     }
     multiply=function(){
-        this.number=minus()
-        this.number*=this.multiply;
-        return this.number
+        number=minus()
+        number*=multiply;
+        return number
     }
     divide=function(){
         number=multiply()
-        this.number/=this.divide;
-        return this.number;
+        number/=divide;
+        return number;
     }
 
 }
